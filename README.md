@@ -10,10 +10,14 @@ Eine Datenbank zur Fähigkeitsförderung von Flüchtlingen im Landkreis Kassel.
 4. **[Wartung](#Wartung)**
 5. **[Zukunft](#Zukunft)**
 
+<a name="Einleitung"></a>
+
 ## Einleitung
 Die **AsylDB** entstand zum größten Teil im Rahmen eines Bundesfreiwilligendienstes beim Landkreis Kassel. Sie soll die Informationsbrücke zwischen dem Landkreis Kassel und dem Jobcenter bilden. Ohne deren Existenz würden für die Vermittlung hilfreiche Informationen über die Fähigkeiten von Asylbewerbern beim Zuständigkeitswechsel verloren gehen.
 
 Die Initiative für dieses Projekt setzte Ehrenamtskoordinator **Wolfgang Engelmohr**, der auch einen ersten Prototypen bereitstellte. Innerhalb von acht Monaten (01/17 - 08/17) arbeitete **Jonas Thelemann** diese Grundidee bis hin zu einer sehr umfangreichen Form mit überaus zahlreichen Funktionen aus. Für den weiteren Support steht **Peter Brockmann** zur Verfügung. Der nächste Bundesfreiwilligendienstler **Luca Reining** wird die Datensätze pflegen.
+
+<a name="Funktionalität"></a>
 
 ## Funktionalität
 Im Hauptmenü der **AsylDB** stehen drei Bereiche zur Auswahl:
@@ -246,8 +250,12 @@ Hier können alle Statistiken zu den eingetragenen Daten angesehen und gedruckt 
 Die im Screenshot sichtbaren Statistiken müssen nicht representativ sein!
 Außerdem gilt: Für aussagekräftige Statistiken sind vollständige Datensätze nötig. Statistiken bilden ein relatives Verhältnis ab, das anderweitig nicht gegeben sein kann.
 
+<a name="Code"></a>
+
 ## Code
 Im Ordner `Code` befindet sich der VBA-Code, der die erweiterte Funktionalität der Datenbank stellt. Dieser kann hier eingesehen werden und als Hilfestellung für eigene Projekte verwendet werden.
+
+<a name="Wartung"></a>
 
 ## Wartung
 Sollten Fehler auftauchen oder weitere Funktionen benötigt werden, die über die bereits gegebenen, zugreifbaren hinaus gehen, sollte jemand mit tiefen Access-Kenntnissen angesprochen werden. Die Wahrscheinlichkeit ist groß, dass sonst Änderungen vorgenommen werden, die zu unbeabsichtigten Auswirkungen, wie neue Fehler, bis hin zum Datenverlust führen können.
@@ -285,6 +293,8 @@ Der Zugriff auf Bearbeitungselemente in Access muss über einen Umweg erreicht w
 - [x] Vollständige Menüs zulassen
 
 Für normale Benutzer der Datenbank empfiehlt sich die inverse Konfiguration.
+
+<a name="Zukunft"></a>
 
 ## Zukunft
 Wie es mit der **AsylDB** und der **EhraDB** genau weitergeht ist nicht bekannt. Ich, Jonas Thelemann, freue mich, dass ich die Datenbanken noch innerhalb meiner Dienstzeit zu meiner Zufriedenheit und der meiner Kollegen fertigstellen konnte. Da sich der gesamte Asyl-Bereich beim Landkreis aber verkleinert (positive Gründe, negative Auswirkungen), besteht die Gefahr, dass die Datenbank nicht mehr groß zur Anwendung kommt. Nichtsdestotrotz habe ich bei der Arbeit daran sehr viel gelernt und das ist, was zählt!
