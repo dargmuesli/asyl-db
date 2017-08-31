@@ -3,6 +3,13 @@ Eine Datenbank zur Fähigkeitsförderung von Flüchtlingen im Landkreis Kassel.
 
 ![Logo](Ressourcen/Logo/AsylDB_2.png "AsylDB")
 
+## Inhaltsverzeichnis
+1. **[Einleitung](#Einleitung)**
+2. **[Funktionalität](#Funktionalität)**
+3. **[Code](#Code)**
+4. **[Wartung](#Wartung)**
+5. **[Zukunft](#Zukunft)**
+
 ## Einleitung
 Die **AsylDB** entstand zum größten Teil im Rahmen eines Bundesfreiwilligendienstes beim Landkreis Kassel. Sie soll die Informationsbrücke zwischen dem Landkreis Kassel und dem Jobcenter bilden. Ohne deren Existenz würden für die Vermittlung hilfreiche Informationen über die Fähigkeiten von Asylbewerbern beim Zuständigkeitswechsel verloren gehen.
 
