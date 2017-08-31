@@ -26,6 +26,8 @@ Im Hauptmenü der **AsylDB** stehen drei Bereiche zur Auswahl:
 - **Blankoformulare**
 - **Statistikformulare**
 
+![Menüleiste](Ressourcen/Screenshots/Leisten/Menüleiste.png "Menüleiste")
+
 ### Daten
 In der **Daten**-Ansicht stehen alle Möglichkeiten zur Datensatzpflege bereit. In der Kopfzeile befinden sich mehrere Elemente:
 
