@@ -254,8 +254,8 @@ Außerdem gilt: Für aussagekräftige Statistiken sind vollständige Datensätze
 
 <a name="Code"></a>
 
-## Code
-Im Ordner `Code` befindet sich der VBA-Code, der die erweiterte Funktionalität der Datenbank stellt. Dieser kann hier eingesehen werden und als Hilfestellung für eigene Projekte verwendet werden.
+## Code & Tabellen
+In den Ordnern `Code` und `Tabellen` befinden sich der VBA-Code, der die erweiterte Funktionalität der Datenbank stellt, und zwei Textversionen der Datenbanktabellen: in .csv- und .md-Format. Sie sollen als Hilfestellung für eigene Projekte dienen.
 
 <a name="Wartung"></a>
 
