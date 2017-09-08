@@ -58,13 +58,13 @@ Darunter befindet sich eine Zeile mit den Hauptdaten zu einer Person.
 
 ![Informationsleiste](Ressourcen/Screenshots/Leisten/Informationsleiste.png "Informationsleiste")
 
-Zuletzt existiert ein Registersteuerelement, über das in verschiedenen Kategorien individuelle Daten zur jeweiligen Person eingetragen werden können. Unter allen Kategorien, die bearbeitet werden können, sind jeweils Notizen und Anlagen hinterlegt werden.
+Zuletzt existiert ein Registersteuerelement, über das in verschiedenen Kategorien individuelle Daten zur jeweiligen Person eingetragen werden können. Unter allen Kategorien, die bearbeitet werden können, können jeweils Notizen und Anlagen hinterlegt werden.
 
 ![Kategorieleiste](Ressourcen/Screenshots/Leisten/Kategorieleiste.png "Kategorieleiste")
 
 1. **Stammdaten**
 
-    Hier werden nur die Daten angezeigt, die über die Excel-Importfunktion eingelesen wurden. Sie können nicht geändert werden.
+    Hier werden *nur* die Daten angezeigt, die über die Excel-Importfunktion eingelesen worden sind. Sie können nicht geändert werden.
 
     - Persönliches
         - Geburtsdatum
@@ -106,7 +106,7 @@ Zuletzt existiert ein Registersteuerelement, über das in verschiedenen Kategori
 
     - Bisheriger Bildungsweg
         - Ausland
-            - ISCED-2011-Level
+            - ISCED-2011-Level [↑](https://de.wikipedia.org/wiki/International_Standard_Classification_of_Education)
             - Schuljahre
             - Studienfach
             - Studienjahre
@@ -161,7 +161,7 @@ Zuletzt existiert ein Registersteuerelement, über das in verschiedenen Kategori
 
 5. **Gesundheit**
 
-    Hier befinden sich Eingabemöglichkeiten zu Beschwerdeinformationen, die (Leistungs-)Vermittelbarkeit einschränken können.
+    Hier befinden sich Eingabemöglichkeiten zu gesundheitlichen Beschwerdeinformationen, die die (Leistungs-)Vermittelbarkeit einschränken können.
 
     - Basisinformationen
         - Einschränkungen
@@ -182,7 +182,7 @@ Zuletzt existiert ein Registersteuerelement, über das in verschiedenen Kategori
 
 6. **Aufenthaltsstatus**
 
-    Hier werden Anerkennung und Erwerbstätigkeitserlaubnis festgehalten.
+    Hier werden Daten zur Anerkennung und Erwerbstätigkeitserlaubnis notiert.
 
     - Anerkennung
         - Asyl-Anerkennung
@@ -203,7 +203,7 @@ Zuletzt existiert ein Registersteuerelement, über das in verschiedenen Kategori
     ![Aufenthaltsverlauf](Ressourcen/Screenshots/Kategorien/Aufenthaltsverlauf.png "Aufenthaltsverlauf")
 
 #### Excel-Import
-Mit dem **Excel-Import** können neue Stammdaten in die Datenbank geladen werden. Durch die dafür notwendigen einzelnen Schritte führt ein eigens angelegter, mehrschrittiger Dialog. Vor dem Import sollte aber unbedingt eine Sicherung des aktuellen Stands angelegt werden! Eine entsprechende Warnung wird angezeigt.
+Mit dem **Excel-Import** können neue Stammdaten in die Datenbank geladen werden. Ein eigens dafür angelegter, mehrschrittiger Dialog führt durch die dafür notwendigen einzelnen Schritte. Vor dem Import sollte aber unbedingt eine Sicherung des aktuellen Stands angelegt werden! Eine entsprechende Warnung wird angezeigt.
 
 ![Warnung](Ressourcen/Screenshots/Import/Warnung.png "Warnung")
 
@@ -211,13 +211,13 @@ Nach jedem Schritt kann, je nach Fortschritt und Vollständigkeit der Eingaben, 
 
 1. **Quelldatenauswahl**
 
-    Im ersten Schritt muss die Excel-Datei mit den einzufügenden Quelldaten ausgewählt werden. Nachdem die Datei angegeben wurde, wird automatisch das erste Tabellenblatt ausgewählt und die darin enthaltene Kopfzeile analysiert. In den unteren Dropdowns werden daraufhin - sofern möglich - automatisch die richtigen Werte ausgewählt. Sollte ein anderes Tabellenblatt gewünscht sein oder eine Auswahl nicht richtig gesezt worden sein, kann dies manuell korrigiert werden.
+    Im ersten Schritt muss die Excel-Datei mit den einzufügenden Quelldaten ausgewählt werden. Wenn die Datei geladen ist, wird automatisch das erste Tabellenblatt ausgewählt und die darin enthaltene Kopfzeile analysiert. In den unteren Dropdown-Feldern werden daraufhin - sofern möglich - automatisch die richtigen Werte ausgewählt. Sollte ein anderes Tabellenblatt gewünscht oder eine Auswahl nicht richtig gesezt worden sein, kann dies manuell korrigiert werden.
 
     ![Datenauswahl](Ressourcen/Screenshots/Import/Datenauswahl.png "Datenauswahl")
 
 2. **Interpretation**
 
-    Hier werden nun die erkannten und aussortierten Datensätze angezeigt, denn nicht alle Zeilen der Excel-Quelldatei müssen einen Datensatz enthalten. Die angezeigten Zeilen überprüft werden, dann kann mit dem nächsten Schritt fortgefahren werden.
+    Hier werden nun die erkannten und aussortierten Datensätze angezeigt, denn nicht alle Zeilen der Excel-Quelldatei müssen einen Datensatz enthalten. Die angezeigten Zeilen sollten überprüft werden, dann kann mit dem nächsten Schritt fortgefahren werden.
 
     ![Interpretation](Ressourcen/Screenshots/Import/Interpretation.png "Interpretation")
 
@@ -234,10 +234,10 @@ Nach jedem Schritt kann, je nach Fortschritt und Vollständigkeit der Eingaben, 
     Nach diesem Schritt ist der Assistent fertig und die Daten werden wie gewünscht importiert.
 
 #### Ausdruck eines Berichts
-Wenn ein Asylbewerber zum Jobcenter wechselt soll ihm ein Bericht über die jeweils erfassten Personendaten mitgegeben werden. Mit einem Klick auf das Druck-Symbol in der Titelleiste öffnet sich ein solcher, druckbarer Bericht. Er kann über die Tastenkombination `STRG + P` oder über das Rechtsklick-Kontextmenü gedruckt werden.
+Wenn ein Asylbewerber zum Jobcenter wechselt, soll ihm ein Bericht über die zu ihm/ihr erfassten Personendaten mitgegeben werden. Mit einem Klick auf das Druck-Symbol in der Titelleiste öffnet sich ein solcher druckbarer Bericht. Dieser kann über die Tastenkombination `STRG + P` oder über das Rechtsklick-Kontextmenü gedruckt werden.
 
 ### Blankoformulare
-Die Blankoformulare dienen zur Übermittlung von Einzutragenden Daten an den jeweiligen Datenpfleger beim Landkreis Kassel. Ausgefüllt werden diese Formulare in ausgedruckter Form von Institutionen wie der **VHS**.
+Die Blankoformulare dienen zur Übermittlung von einzutragenden Daten an den jeweiligen datenpflegenden Mitarbeiter beim Landkreis Kassel. Ausgefüllt werden diese Formulare in ausgedruckter Form von Institutionen wie der **VHS**.
 
 Zu jeder Kategorie (s.o.) gibt es einen Button zur Vorschau und zum Druck. Die Kategorie **Stammdaten** kann nicht gedruckt werden, weil diese Daten nur per Excel-Tabelle importiert werden können.
 
@@ -250,19 +250,19 @@ Hier können alle Statistiken zu den eingetragenen Daten angesehen und gedruckt 
 
 **Hinweis**  
 Die im Screenshot sichtbaren Statistiken müssen nicht representativ sein!
-Außerdem gilt: Für aussagekräftige Statistiken sind vollständige Datensätze nötig. Statistiken bilden ein relatives Verhältnis ab, das anderweitig nicht gegeben sein kann.
+Außerdem gilt: Für aussagekräftige Statistiken sind vollständige Datensätze nötig. Statistiken bilden ein relatives Verhältnis ab, das anderweitig nicht berechnet werden kann.
 
 <a name="Code"></a>
 
 ## Code & Tabellen
-In den Ordnern `Code` und `Tabellen` befinden sich der VBA-Code, der die erweiterte Funktionalität der Datenbank stellt, und zwei Textversionen der Datenbanktabellen: in .csv- und .md-Format. Sie sollen als Hilfestellung für eigene Projekte dienen.
+In den Ordnern `Code` und `Tabellen` befinden sich der VBA-Code, der die erweiterte Funktionalität der Datenbank stellt, und zwei Textversionen der Datenbanktabellen: in .csv- und .md-Format. Sie sollen als Hilfestellung für andere Projekte dienen.
 
 <a name="Wartung"></a>
 
 ## Wartung
-Sollten Fehler auftauchen oder weitere Funktionen benötigt werden, die über die bereits gegebenen, zugreifbaren hinaus gehen, sollte jemand mit tiefen Access-Kenntnissen angesprochen werden. Die Wahrscheinlichkeit ist groß, dass sonst Änderungen vorgenommen werden, die zu unbeabsichtigten Auswirkungen, wie neue Fehler, bis hin zum Datenverlust führen können.
+Sollten Fehler auftauchen oder weitere Funktionen benötigt werden, die über die bereits gegebenen, zugreifbaren hinaus gehen, sollte jemand mit tiefen Access-Kenntnissen diese Änderungswünsche umsetzen. Die Wahrscheinlichkeit ist groß, dass sonst Änderungen vorgenommen werden, die zu unbeabsichtigten Auswirkungen, wie zu neuen Fehlern, bis hin zum Datenverlust führen können.
 
-Die Datenstruktur auf dem Server ist folgende:
+Die Datenstruktur auf dem Server ist:
 
 ```
 G:\...\
@@ -283,9 +283,9 @@ G:\...\
         └── AsylDB.lnk
 ```
 
-Empfehlenswert ist von Zeit zu Zeit ein Backup der Datei `AsylDB_20170818.accdb` anzulegen. Die Datei muss auch an den die Datei Wartenden versendet werden. Besser ist es, wenn Fehler vor Ort, beim Landkreis, behoben bzw. Funktionen vor Ort hinzugefügt werden. So ist sichergestellt, dass nicht zwei Personen gleichzeitig Änderungen an derselben Datenbank vornehmen.
+Empfehlenswert ist von Zeit zu Zeit ein Backup der Datei `AsylDB_20170818.accdb` anzulegen. Die Datei muss auch an den die Datei wartenden Mitarbeiter versendet werden. Besser ist es, wenn Fehler vor Ort, beim Landkreis, behoben bzw. Funktionen vor Ort hinzugefügt werden. So ist sichergestellt, dass nicht zwei Personen gleichzeitig Änderungen an derselben Datenbank vornehmen.
 
-Der Zugriff auf Bearbeitungselemente in Access muss über einen Umweg erreicht werden: Über das Menü **Datei** > **Datenschutzoptionen** öffnet sich der Optionsdialog. Hier kann links unter **Aktuelle Datenbank** alle Einstellungen vornehmen. Zum Bearbeiten empfiehlt sich folgende Konfiguration:
+Der Zugriff auf Bearbeitungselemente in Access muss über einen Umweg erreicht werden: Über das Menü **Datei** > **Datenschutzoptionen** öffnet sich der Optionsdialog. Hier können links unter **Aktuelle Datenbank** alle Einstellungen vorgenommen werden. Zum Bearbeiten empfiehlt sich folgende Konfiguration:
 
 - [x] Statusleiste anzeigen
 - [x] Dokumentregisterkarten anzeigen
